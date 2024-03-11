@@ -38,8 +38,3 @@ def is_valid_parentheses(data: str, parentheses_char: tuple[str] = ("(", ")", "[
         income_len = output_len
 
     return not string_parentheses
-
-# print(is_valid_parentheses("asd][asd]ddd((a)dd)"))
-# print(is_valid_parentheses("[asd][a{}sd]d{dd((a)d}d)"))
-# print(is_valid_parentheses("[asd][a{}sd]d{dd((a)dd)}"))
-# print(is_valid_parentheses("asdasddddadd"))
