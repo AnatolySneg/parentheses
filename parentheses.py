@@ -9,7 +9,7 @@ def get_invalid_indexes(data: list, char: tuple[str]) -> list[int]:
     return [i[1] for i in data_index if i[0] in char]
 
 
-def is_valid_parentheses(data: str, parentheses_char: tuple[str] =("(", ")", "[", "]", "{", "}")) -> bool | list[int]:
+def is_valid_parentheses(data: str, parentheses_char: tuple[str] = ("(", ")", "[", "]", "{", "}")) -> bool | list[int]:
     """
     function gets string with or without parentheses
     :returns: 'True' if parentheses are closable;
@@ -38,7 +38,6 @@ def is_valid_parentheses(data: str, parentheses_char: tuple[str] =("(", ")", "["
         income_len = output_len
 
     return not string_parentheses
-
 
 # print(is_valid_parentheses("asd][asd]ddd((a)dd)"))
 # print(is_valid_parentheses("[asd][a{}sd]d{dd((a)d}d)"))
